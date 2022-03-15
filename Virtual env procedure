@@ -1,0 +1,35 @@
+Installing packages using pip and virtual environments¶
+python3 -m pip install --user --upgrade pip
+
+python3 -m pip --version
+Installing virtualenv¶
+python3 -m pip install --user virtualenv
+
+
+
+Creating a virtual environment
+python3 -m venv env
+
+
+Activating a virtual environment¶
+source env/bin/activate
+which python
+.../env/bin/python
+
+deactivate
+
+
+
+
+pip install Flask-RESTfil
+pip freeze
+ls 
+mkdir code
+cd code
+
+
+python3 -m pip install requests
+
+Installing specific versions
+python3 -m pip install requests==2.18.4
+python3 -m pip install --pre requests

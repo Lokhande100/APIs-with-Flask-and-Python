@@ -1,0 +1,12 @@
+POSTMAN DESKTOP'
+
+
+$ sudo apt update
+$ sudo apt install snapd
+$ sudo snap install postman
+$ cd Downloads/
+$ tar -xzf Postman-linux-x64-7.32.0.tar.gz
+$ sudo mkdir -p /opt/apps/
+$ sudo mv Postman /opt/apps/
+$ sudo ln -s /opt/apps/Postman/Postman /usr/local/bin/postman
+$ postman
